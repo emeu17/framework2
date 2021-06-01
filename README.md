@@ -20,11 +20,13 @@ through link "Game 21" in navbar. Based on classes in /src:
 From Kmom02:
 
 Refactoring of code to include controllers.
-New class Yatzy to play yatzy game on application.
+Yatzy game is not moved to Symfony (yet at least).
 
 
 From Kmom03:
 
-Unit-testing of controller classes and Dice classes
+Unit-testing of Dice classes
 can be found under folder *test*. Can be performed running
 *make phpunit*. Result of test can be found in *build*-map -> coverage.
+Test of symfony controller classes has not been added as they will be
+more of functional than unit-tests and require more work to complete. 
